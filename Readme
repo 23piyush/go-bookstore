@@ -12,3 +12,10 @@ To build the code ( create go binary) : Go to cmd repo where main.go is present 
 6. go build
 To run the binary code:
 7. go run main.go
+
+Sometimes, this works - 
+1. go mod init github.com/23piyush/go-bookstore
+2. go mod tidy
+3. cd Commands
+4. go build
+5. go run main.go
