@@ -1,0 +1,14 @@
+go.mod file in golang is like package.json file in nodejs.
+It helps in building go code to create .exe for windows or .deb for ubuntu.
+
+Commands to run for this project 
+1. go mod init github.com/23piyush/go-bookstore
+2. Import necessary pacakges - 
+3. go get "github.com/jinzhu/gorm"
+4. go get "github.com/jinzhu/gorm/dialects/mysql"
+5. go get "github.com/gorilla/mux"
+
+To build the code ( create go binary) : Go to cmd repo where main.go is present : 
+6. go build
+To run the binary code:
+7. go run main.go
